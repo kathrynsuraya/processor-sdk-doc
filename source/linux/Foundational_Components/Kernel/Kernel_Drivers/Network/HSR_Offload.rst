@@ -8,7 +8,7 @@ Redundant and reliable communication is necessary for the highly critical nature
 
 When implementing HSR solutions in grid substations, traditionally, FPGAs and ASICs were used to support the HSR standard, but with modern processors and hardware accelerators, the AM64x provides a more cost-effective solution for implementing substation requirements, including HSR. Offloading is the process of transferring tasks away from the CPU to another processing unit. In the case of the AM64x Sitara Processor, HSR tasks can be offloaded from the A53 cores to the PRU_ICSSG. 
 
-.. rubric:: **Linux HSR Offload Support**
+.. rubric:: Linux HSR Offload Support
 
 HSR framework in Linux allows offloading below functionalities to the device:
 
